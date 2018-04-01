@@ -63,6 +63,6 @@ int		main(int argc, char **argv)
         send_message(server_pid, argv[2]);
     }
     else
-        ft_putstr("Usage: ./client server-pid message\n");
+        ft_putstr(RED "Usage: "RESET" ./client server-pid message\n");
     return (0);
 }
